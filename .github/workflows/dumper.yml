@@ -36,7 +36,7 @@ jobs:
       - name: Cloning Dumper
         run: |
              git config --global user.email "sarthakroy2002@gmail.com" && git config --global user.name "Sarthak Roy"
-             git clone https://github.com/neilchetty/Dumper-Script.git --depth=1
+             git clone https://github.com/neilchetty/Dumper-Script.git DumprX --depth=1
 
       - name: Installing Requirements
         run: |
